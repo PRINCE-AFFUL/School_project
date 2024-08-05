@@ -1,0 +1,413 @@
+body{
+   
+}
+.courses{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* .count1{
+    font-size: 50px;
+    color: springgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 2rem;
+    margin-top: 2rem;
+} */
+
+
+.slider{
+    width: 100%;
+    overflow: hidden;
+}
+.slide{
+    display: none;
+}
+.active{
+    display: block;
+}
+img{
+    height: 50rem;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+
+.box1{
+    background-color: white;
+   
+    height: 5rem;
+    width: 5rem;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.box2{
+    background-color: yellow;
+   
+    height: 5rem;
+    width: 15rem;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+   
+}
+.first_item{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 2rem;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+    transition-delay: 50ms;
+}
+.boxes{
+    display: flex;
+    margin-top: -5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.container1:hover{
+    box-shadow: 15px 15px black;
+}
+
+.first_content{
+    display: flex;
+    gap: 2rem;
+   margin-left: 12rem;
+}
+.Hi{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: yellow;
+    
+}
+.Prince{
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+   
+}
+.Afful{
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+.Hello{
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.Ambition{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.ambition{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    color: white;
+}
+.Tech_passionated{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: yellow;
+   
+    border-radius: 30px;
+}
+.Hardworking{
+    border: 5px solid yellow;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 30px;
+}
+.pic{
+   height: 50rem;
+   width: 45rem;
+   border-radius: 50px;
+   /* border: 10px solid yellow; */
+   margin-top: 3rem;
+}
+.Pic{
+    height: 50rem;
+    width: 40rem;
+    border-radius: 50px;
+    border: 10px solid yellow;
+}
+.main_content{
+    display: flex;
+    gap: 3rem;
+}
+.Vision{
+    display: flex;
+
+}
+.vision{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.about{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: yellow;
+    text-align: center;
+}
+.Main_content{
+    display: flex;
+}
+.description{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.resume{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color: goldenrod;
+}
+.Expectation{
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+.first{
+    width: 15rem;
+    height: 12rem;
+    text-align: center;
+    background-color: grey;
+    margin-top: -1rem;
+}
+.date{
+    color: yellow;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.achievement{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.expectation{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+   color: goldenrod;
+   text-align: end;
+}
+.Calender{
+    font-size: 50px;
+    font-stretch: expanded;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+ text-align: center;
+color: white;
+ margin-top: 5rem;
+
+}
+
+.calender{
+    text-align: center;
+    background-image: linear-gradient(120deg,lightblue,cornflowerblue);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: darkblue;
+    text-decoration: underline;
+    margin-right: 2rem;
+}
+.Activity{
+    text-align: center;
+    background-image: linear-gradient(120deg,lightblue,cornflowerblue);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: darkblue;
+    text-decoration: underline;
+}
+.calender_activities{
+    display: flex;
+    gap: 5rem;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    font-style: italic;
+    border: 5px solid black;
+    background-color: yellow;
+  
+}
+
+.box{
+   padding-bottom: 0;
+   animation: down 30s ease ;
+   transition: all 0.5s;
+}
+@keyframes down {
+    0%{
+        opacity: 0;
+        display: none;
+       
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+.box:nth-child(6){
+    animation-delay: 7;
+}
+.box:nth-child(2){
+    animation-delay: 4;
+}
+.box:nth-child(3){
+    animation-delay: 5;
+}
+.box:nth-child(4){
+    animation-delay: 6;
+}
+.box:nth-child(5){
+    animation-delay: 7;
+}
+
+body{
+    background-image: url(pexels-burst-374631.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+   
+    justify-content: space-between;
+    
+  
+}
+li{
+    list-style: none;
+ 
+}
+a{
+    border: 5px solid darkblue;
+    border-radius: 50px;
+    text-decoration: none;
+    /* border: 5px solid darkblue;  */
+    /* border-radius: 30px; */
+    font-size: 25px;
+    transition: all 0.4s;
+    font-style: italic;
+    background-color: darkblue;
+    color: white;
+}
+a:hover{
+    
+    transition: all 0.4s;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.testimonial{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: yellow;
+    width: 40rem;
+    border-radius: 30px;
+    margin-left: 27rem;
+}
+.my_testimony{
+  
+    display: flex;
+}
+.test_1{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50px;
+}
+.logo{
+    display: flex;
+
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    border: 5px dashed black;
+    border-radius: 50%;
+   
+}
+
+
+

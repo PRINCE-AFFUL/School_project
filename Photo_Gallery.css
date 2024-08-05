@@ -1,0 +1,137 @@
+.heading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-stretch: expanded;
+    font-size: 50px;
+    text-shadow: 3px 3px bisque;
+    text-decoration: underline;
+    
+}
+.sub_heading{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-stretch: expanded;
+    color: white;
+    text-shadow: 3px 3px black;
+  
+}
+
+
+.container{
+    width: 300px;
+    height: 250px;
+    animation: MOVE 60s linear infinite;
+    position: relative;
+    transform-style: preserve-3d;
+   margin-top: 7rem;
+   margin-left: 37rem;
+   background: linear-gradient(150deg,chartreuse,royalblue);
+   color: white;
+   font-size: 30PX;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   text-align: center;
+
+
+}
+@keyframes MOVE{
+    0%{
+        transform: perspective(1000px)rotateY(0deg) ;
+      
+    }
+    100%{
+        transform:perspective(1000px) rotateY(360deg) ; 
+    }
+}
+.container span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    transform-style: preserve-3d;
+    transform-origin: center;
+
+   
+
+}
+.container span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: rotateY(calc(45deg*var(--i))) translateZ(400px);
+   border: 5px solid pink;
+    border-radius: 30px;
+    -webkit-box-reflect :below 2px linear-gradient(transparent,transparent,black);
+   
+   
+}
+img{
+    width: 230px;
+    height: 300px; 
+   
+}
+body{
+  background-image: url(pexels-moose-photos-170195-1037992.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.description{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30rem;
+    text-decoration: dashed underline;
+
+   
+}
+.details{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    text-align: center;
+   
+    
+}
+nav{
+  
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+   
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none;
+  
+}
+a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+  border: 5px solid white;
+  background-color: bisque;
+  border-radius: 30px;
+    font-size: 30px;
+ 
+    font-style: italic;
+}
+a:hover{
+    
+    transition: all 0.4s;
+    color: darkblue;
+    border: 5px solid bisque;
+}

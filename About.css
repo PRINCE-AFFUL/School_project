@@ -1,0 +1,455 @@
+.heading{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-stretch: expanded;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    height: 20rem;
+    width: 48rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 700px;
+    border: 10px solid gray;
+    border-top: none;
+    line-height: 10rem;
+    border-right: none;
+}
+.container{
+    height: 77rem;
+    width: 49rem;
+    background-color: lightskyblue;
+    border: 50px solid dodgerblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+}
+.headings{
+    display: flex;
+background-color: white;
+border-radius: 50px;
+width: 50rem;
+justify-content: center;
+align-items: center;
+}
+.sub_heading{
+    height: 5rem;
+    width: 5rem;
+    border: 10px solid blue;
+    border-radius: 50px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: -3rem;
+}
+.sub{
+    height: 7rem;
+    width: 40rem;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 30px;
+}
+.period{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    border: 5px solid darkblue;
+    border-radius: 50px;
+    width: 20rem;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.impact{
+    text-align: center;
+    font-size: 30px;
+    
+    font-weight: bold;
+    font-style: italic;
+}
+.question{
+    height: 25rem;
+    width: 25rem;
+    border: 20px solid royalblue;
+    border-radius: 200px;
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: -1.5rem;
+    border-left: none;
+    border-bottom: none;
+    margin-top: 5rem;
+}
+.last_content{
+    display: flex;
+    gap: 8rem;
+   
+}
+.pic{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 3rem;
+    filter: grayscale(50%);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.tooltip{
+    background-color: lightblue;
+    padding: 1rem 3rem;
+    position: relative;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 20px;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 3rem;
+    margin-left: 2.8rem;
+color: darkblue;
+    font-weight: bolder;
+    font-style: italic;
+}
+.tooltip::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1rem solid transparent;
+    border-top: 1rem solid lightblue;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,100%);
+}
+.description{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.new_container{
+    width: 50rem;
+    height: 70rem;
+}
+.contents{
+    display: flex;
+}
+.contents{
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    
+}
+.Impact{
+    margin-top: 1rem;
+}
+.Impacts{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.first{
+    color: darkblue;
+    background-color: white;
+    border-radius: 20px;
+}
+.second{
+    color: white;
+    border-radius: 20px;
+}
+.discovery{
+    text-align: center;
+    font-style: italic;
+    color: royalblue;
+}
+.friends{
+    height: 20rem;
+    width: 20rem;
+}
+.Discovery{
+    display: flex;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.hope{
+    display: flex;
+}
+.Impacts2{
+    display: flex;
+    margin-left: 10rem;
+}
+.tertiary_heading{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color: blue;
+  
+}
+.TERTIARY{
+background-color: royalblue;
+color: white;
+
+}
+.Tertiary{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+.tertiary_pic{
+    height: 35rem;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 10px solid white;
+}
+.tertiary_two{
+    border: 10px solid blue;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+height: 35rem;
+width: 40rem;
+color: black;
+background-color: white;
+}
+body{
+    background-image: url(pexels-morningtrain-18105.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ margin-left: 20rem;
+    
+}
+.tertiary_heading{
+    color: white;
+}
+
+
+
+.exp_heading{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+}
+.first_exp{
+    display: flex;
+    
+    border: 5rem solid royalblue;
+    border-left: none;
+   
+    border-bottom: none;
+}
+.workpic1{
+    height: 28rem;
+    width: 30rem;
+  opacity: 50%;
+
+}
+.exp_1{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5rem;
+    line-height: -2rem;
+    background-color: white;
+    margin-top: -0rem;
+}
+.BIG_CONTAINERS{
+    display: flex;
+}
+.W_experiences:hover{
+    box-shadow: 15px 15px solid black;
+}
+.seminar_heading{
+    color: white;
+}
+.seminars{
+ gap: 2rem;
+    display: flex;
+    margin-left: -10rem;
+}
+.seminar_1{
+    height: 30rem;
+    width: 20rem;
+    border: 20px solid royalblue;
+    border-bottom: none;
+    border-left: none;
+   
+    
+}
+
+.seminar1_pic{
+    height: 20rem;
+    width: 20rem;
+}
+.seminar1_content{
+    background-color: royalblue;
+    color: white;
+}
+.position{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-stretch: expanded;
+    text-align: center;
+    background-color: royalblue;
+   border-radius: 50px;
+   text-shadow: 3px 3px white;
+}
+.first_position{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-stretch: expanded;
+    background-color: white;
+    color: royalblue;
+    text-shadow: 3px 3px black;
+}
+.first_position:hover{
+    background-color: royalblue;
+    color: white;
+    box-shadow: 15px 15px black;
+}
+
+.volunteer_services{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    gap: 10px;
+    text-align: center;
+    margin-left: -15rem;
+    background-color: royalblue;
+    width: 83rem;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px 10px black;
+    text-shadow: 3px 3px black;
+}
+.service1{
+    color: blue;
+}
+.service2{
+    color: white;
+}
+.service3{
+    color: bisque;
+}
+.service4{
+    color: blue;
+}
+.service5{
+    color: white;
+}
+.service6{
+    color: blue;
+}
+.Service{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: condensed;
+    background-color: bisque;
+    color: royalblue;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+.Service:hover{
+    background-color: royalblue;
+    color: white;
+}
+.Hobbies{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: white;
+    color: royalblue;
+    height: 40rem;
+    width: 50rem;
+    border: 50px solid royalblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.hobbies_heading{
+    text-decoration: underline;
+}
+.Interests{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: white;
+    color: royalblue;
+    height: 40rem;
+    width: 50rem;
+    border: 50px solid royalblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.interests_heading{
+    text-decoration: underline;
+}
+.HOBBIES{
+    display: flex;
+    gap: 2rem;
+}
+nav{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    
+    justify-content: space-between;
+   
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+  color: white;
+  background-color: royalblue;
+    font-size: 30px;
+    border-radius: 30px;
+    font-style: italic;
+
+}
+a:hover{
+background-color: white;
+color: royalblue;
+transition: 0.4s all;
+border-radius: 30px;
+  
+   
+}
+.NAV{
+    margin-left: -20rem;
+}
